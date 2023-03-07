@@ -21,6 +21,8 @@ A l'intérieur du conteneur www_univ_medica exécuter ces commandes :
 -composer require --dev doctrine/doctrine-fixtures-bundle
 -php bin/console doctrine:fixtures:load
 
+Pour accéder à phpmyadmin utiliser root / root pour se connecter
+
 Vous pouvez maintenant accéder à Universal_medica_group sur http://localhost:8080/login
 
 Les utilisateurs créés:
