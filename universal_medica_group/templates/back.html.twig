@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Page de bienvenue - Backend</title>
+	<!-- Liens vers les fichiers CSS de Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+	<!-- Liens vers les fichiers JavaScript de jQuery et Bootstrap -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style type="text/css">
+		/* Ajoutez ici votre propre style CSS si nécessaire */
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<h1>Bienvenue sur la page d'administration {{ app.user.username }}</h1>
+			<p>Cette page est réservée aux utilisateurs back.</p>
+			<p><a class="btn btn-primary btn-lg" href="{{ path('app_logout') }}" role="button">Déconnexion</a></p>
+		</div>
+	</div>
+</body>
+</html>
