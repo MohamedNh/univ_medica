@@ -13,15 +13,20 @@ Ouvrir le projet et exécuter ces commandes:
 -docker-compose build
 -docker-compose up -d
 
-A l'intérieur du conteneur www_univ_medica exécuter ces commandes :
+Accéder à l'intérieur du conteneur WEB www_univ_medica avec cette commande:
 
--php bin/console doctrine:migrations:migrate
--composer require symfony/security-bundle
--composer require symfony/twig-bundle
--composer require --dev doctrine/doctrine-fixtures-bundle
--php bin/console doctrine:fixtures:load
+-docker exec -it ww_univ_medica bash
+-cd universal_medica_group
+
+et lancer ces commandes :
+
+-composer install
+-php bin/console doctrine:migrations:migrate avec purge (yes)
+-php bin/console doctrine:fixtures:load avec purge (yes)
 
 Pour accéder à phpmyadmin utiliser root / root pour se connecter
+
+#Universal_medica_group 
 
 Vous pouvez maintenant accéder à Universal_medica_group sur http://localhost:8080/login
 
