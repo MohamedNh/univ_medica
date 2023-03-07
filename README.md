@@ -1,9 +1,9 @@
 #Universal_medica_group Prérequis
 
-1-PHP Version 8.1
-2-MySQL 5.7
-3-PhpMyAdmin
-4-Symfony version 5.4
+-PHP Version 8.1
+-MySQL 5.7
+-PhpMyAdmin
+-Symfony version 5.4
 
 #Installation
 
