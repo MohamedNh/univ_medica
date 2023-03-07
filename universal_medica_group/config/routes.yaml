@@ -4,7 +4,3 @@
 app_login:
   path: /login
   controller: App\Controller\SecurityController::login
-
-error403:
-    path: /error403
-    controller: App\Controller\ExceptionController::error403
