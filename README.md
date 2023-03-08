@@ -4,6 +4,7 @@
 -MySQL 5.7
 -PhpMyAdmin
 -Symfony version 5.4
+-Docker v20
 
 #Installation
 
