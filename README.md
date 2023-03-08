@@ -34,6 +34,6 @@ Les utilisateurs créés:
 -Front User: 
   username:frontuser / mot de passe: test1234 
 -Back User: 
-  username:frontuser / mot de passe: test1234 
+  username:backuser / mot de passe: test1234 
 -Anonymous User:
   username:test / mot de passe: test 
